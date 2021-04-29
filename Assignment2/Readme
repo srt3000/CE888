@@ -1,0 +1,16 @@
+To train YOLO v3 file,  
+This google drive folder contains necessary files to run the program : https://drive.google.com/drive/folders/1S-mOHf5OEqU2JBgp28Uyon3A0i3-r3w7?usp=sharing
+
+
+Step 1: Labelled the images using Labelimg software is uploaded as images.zip in yolov3 folder in google drive
+Step 2: For this project, Google colab is used. open Train_Yolo the ipynb file to the colab.  
+Step 3: Prepare the google drive folder by uploading the training data containing labels and the testing data in yolov3 folder
+Step 4: Specify the file paths in the program file to import the images for training, testing and also to import configuration files
+Step 5: Upload the configuration file to the yolov3 folder and specify its path in the program 
+Step 6: Train the images and check after each 1000 iterations if the model is saving the weights
+Step 7: After finishing the training, test the program in the test set.
+Step 8: The images that has Fire are shown with bounding box around Fire along with a text and the confidence and the area of the bounding box is printed on the top of images
+
+
+To use Firevsnonfire Approach2.ipynb.
+Upload the unzipped dataset to the google drive folder, mount the drive and change the file paths in the program
